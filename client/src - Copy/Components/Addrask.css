@@ -1,0 +1,31 @@
+.addTask
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.addTask input{
+    width: 50%;
+    height: 30px;
+    outline: none;
+    border : 1px solid rgb(212, 209, 209);
+    /* border-bottom: 2px solid rgb(22, 24, 148); */
+    font-size: 18px;
+    padding: 20px;
+    /* color: rgb(24,75,241); */
+}
+.addTask button
+{
+    padding: 5px 10px;
+    padding-top: 8px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* font-size: 18px; */
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: rgb(4, 154, 69);
+}
